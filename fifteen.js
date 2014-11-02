@@ -230,23 +230,23 @@ function setBackground(){
   switch(background){
 
     case "Background1":
-      for(var x = 0; x < tiles.length; x++)tiles[x].style.backgroundImage = "url('http://i187.photobucket.com/albums/x37/kabton14/info2180%20project/smurf_zpsd17fd548.jpg')";
+      for(var x = 0; x < tiles.length; x++){tiles[x].style.backgroundImage = "url('http://i187.photobucket.com/albums/x37/kabton14/info2180%20project/smurf_zpsd17fd548.jpg')";}
       break;
 
     case "Background2":
-      for(var x = 0; x < tiles.length; x++)tiles[x].style.backgroundImage = "url('http://i187.photobucket.com/albums/x37/kabton14/info2180%20project/quarry_zpsc410258d.jpg')";
+      for(var x = 0; x < tiles.length; x++){tiles[x].style.backgroundImage = "url('http://i187.photobucket.com/albums/x37/kabton14/info2180%20project/quarry_zpsc410258d.jpg')";}
       break;
 
     case "Background3":
-      for(var x = 0; x < tiles.length; x++)tiles[x].style.backgroundImage = "url('http://i187.photobucket.com/albums/x37/kabton14/info2180%20project/Crimson-Staff_avatar_zps061aa7fc.png')";
+      for(var x = 0; x < tiles.length; x++){tiles[x].style.backgroundImage = "url('http://i187.photobucket.com/albums/x37/kabton14/info2180%20project/Crimson-Staff_avatar_zps061aa7fc.png')";}
       break;
 
     case "Background4":
-      for(var x = 0; x < tiles.length; x++)tiles[x].style.backgroundImage = "url('http://i187.photobucket.com/albums/x37/kabton14/info2180%20project/anthony-burrill-owl_zps3863e809.png')";
+      for(var x = 0; x < tiles.length; x++){tiles[x].style.backgroundImage = "url('http://i187.photobucket.com/albums/x37/kabton14/info2180%20project/anthony-burrill-owl_zps3863e809.png')";}
       break;
 
     default:
-      for(var x = 0; x < tiles.length; x++)tiles[x].style.backgroundImage = "url('background.jpg')";
+      for(var x = 0; x < tiles.length; x++){tiles[x].style.backgroundImage = "url('background.jpg')";}
 
   }
 
